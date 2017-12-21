@@ -93,16 +93,16 @@ Commands accepted by the mqtt daemon :
 	{'action': 'show_static_image', 'path': '../testdata/color.png'}
 	{'action': 'show_animated_image', 'path': '../testdata/exp.gif'}
 	{'action': 'show_static_image', 'data': 'iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAACXBIWXMAAA4mAAAN/wHwU+XzAAAAXElEQVQYlc2PQQ6AQAgDB1/en48HdjVr9qA3IQRKS1IQNKiMVBpqYoz26MGHOAAqz3XtxQWYvabSRNVNaBCGZ+4yWTBOYgq1Md1jH1wPXjZkGRw2+n48+DZ+Ij4BeddPVF7LZ+sAAAAASUVORK5CYII='}
-	{'action': 'show_animated_image', 'data': 'R0lGODlhCwALAKECAAAAAP8AAP///////yH/C05FVFNDQVBFMi4wAwEAAAAh/hFDcmVhdGVkIHdpdGggR0lNUAAh+QQBCgACACwAAAAACwALAAACCoSPqcvtGZ6c1BUAIfkEAQoAAwAsAAAAAAsACwAAAg+Ej6nLFv2ekoCiCJverAAAIfkEAQoAAwAsAAAAAAsACwAAAg+Ej6kaC22gY0lOJC2+XBUAIfkEAQoAAwAsAAAAAAsACwAAAg+Ejwmhm9yihE9aRU0++xYAIfkEAQoAAwAsAAAAAAsACwAAAg+EHXep2A9jZJDKi4FdbxcAIfkEAQoAAwAsAAAAAAsACwAAAgwMjmjJ7Q+jnJQuFwoAIfkEAQoAAwAsAAAAAAsACwAAAgqEj6nL7Q+jnKAAACH5BAEKAAMALAAAAAALAAsAAAIKhI+py+0Po5ygAAA7'}```
+	{'action': 'show_animated_image', 'data': 'R0lGODlhCwALAKECAAAAAP8AAP///////yH/C05FVFNDQVBFMi4wAwEAAAAh/hFDcmVhdGVkIHdpdGggR0lNUAAh+QQBCgACACwAAAAACwALAAACCoSPqcvtGZ6c1BUAIfkEAQoAAwAsAAAAAAsACwAAAg+Ej6nLFv2ekoCiCJverAAAIfkEAQoAAwAsAAAAAAsACwAAAg+Ej6kaC22gY0lOJC2+XBUAIfkEAQoAAwAsAAAAAAsACwAAAg+Ejwmhm9yihE9aRU0++xYAIfkEAQoAAwAsAAAAAAsACwAAAg+EHXep2A9jZJDKi4FdbxcAIfkEAQoAAwAsAAAAAAsACwAAAgwMjmjJ7Q+jnJQuFwoAIfkEAQoAAwAsAAAAAAsACwAAAgqEj6nL7Q+jnKAAACH5BAEKAAMALAAAAAALAAsAAAIKhI+py+0Po5ygAAA7'}
+```
 	
 	
-	
-    Color name : http://pillow.readthedocs.io/en/3.1.x/reference/ImageColor.html#module-PIL.ImageColor
-        Hexadecimal color specifiers, given as #rgb or #rrggbb. For example, #ff0000 specifies pure red.
-        Common HTML color names
-        4 LSB bits are dropped for each color channel 
-
-
+```	
+Color name : http://pillow.readthedocs.io/en/3.1.x/reference/ImageColor.html#module-PIL.ImageColor
+Hexadecimal color specifiers, given as #rgb or #rrggbb. For example, #ff0000 specifies pure red.
+Common HTML color names
+4 LSB bits are dropped for each color channel 
+```
 
 
 ### Cron

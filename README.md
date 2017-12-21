@@ -102,3 +102,13 @@ Commands accepted by the mqtt daemon :
         Common HTML color names
         4 LSB bits are dropped for each color channel 
 
+
+
+
+### Cron
+The following cron job, ensure that the daemon is running :
+
+```
+# Check is daemon is running, if not, run it
+*/10 * * *  DIR="/root/timeboxmini/package/";PY="${DIR}/timebox_mqtt_daemon.py";APP="/usr/bin/python $PY";test -e "$PY"&&cd $DIR&&(pgrep -f "$APP">/dev/null||${APP}>/dev/null 2>&1)
+```

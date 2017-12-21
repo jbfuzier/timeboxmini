@@ -1,7 +1,7 @@
 # timeboxmini
 Python mqtt daemon to talk with timebox mini
 
-Most of the code come from the work of derHeinz/divoom-adapter, DaveDavenport/timebox, MarcG046/timebox.
+Most of the code comes from the work of derHeinz/divoom-adapter, DaveDavenport/timebox, MarcG046/timebox.
 
 What works : 
 * Display scrolling text

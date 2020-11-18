@@ -18,6 +18,9 @@ To check that the dongle is working properly : `blescan`
 
 Python requirements (see requirements.txt) : `pip install -r requirements.txt`. A C compiler & bluetooth dev headers are required, on debian : `apt install libbluetooth-dev build-essential`
 
+```
+apt-get install libboost-thread1.62.0 build-essential libbluetooth-dev libglib2.0-dev glibc-dev bluez bluez-tools bluetooth libbluetooth3 libboost-python-dev 
+```
 
 ### 1. Quick start
 Copy `config.py.sample` to `config.py` and edit it accordingly (put yours timebox mac address, `blescan` can help you getting it).
